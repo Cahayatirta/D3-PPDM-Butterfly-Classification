@@ -1,0 +1,4 @@
+opencv-python-headless
+streamlit
+numpy
+pickle

@@ -3,11 +3,6 @@ import cv2
 import numpy as np
 import pickle
 from PIL import Image
-import os
-import io
-
-# Import the ButterflyNN class from the existing module
-from butterfly_nn_hyperparametertuning import ButterflyNN
 
 class ButterflyClassifierApp:
     def __init__(self):
