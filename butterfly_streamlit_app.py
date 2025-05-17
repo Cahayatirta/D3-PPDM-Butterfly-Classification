@@ -4,6 +4,8 @@ import numpy as np
 import pickle
 from PIL import Image
 
+from hyperparameter_ver.butterfly_nn_hyperparametertuning import ButterflyNN
+
 class ButterflyClassifierApp:
     def __init__(self):
         # Load model
@@ -16,7 +18,7 @@ class ButterflyClassifierApp:
     def load_model(self):
         """Load model from pickle file"""
         try:
-            with open("butterfly_model_hyperparameter.pkl", 'rb') as f:
+            with open("./hyperparameter_ver/butterfly_model_hyperparameter.pkl", 'rb') as f:
                 data = pickle.load(f)
                 self.model = data['model']
                 self.mean = data['mean']
