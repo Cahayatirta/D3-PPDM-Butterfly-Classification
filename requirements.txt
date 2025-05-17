@@ -1,4 +1,6 @@
 opencv-python-headless
 streamlit
 numpy
-pickle
+pandas
+matplotlib
+scikit-learn
